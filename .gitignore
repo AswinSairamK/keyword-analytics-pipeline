@@ -1,0 +1,32 @@
+# Raw data and processed folders
+raw/
+silver/
+gold/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Spark temp files
+derby.log
+metastore_db/
+spark-warehouse/
+
+# Virtual environment
+airflow_env/
+venv/
+env/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Airflow logs
+logs/
+airflow.db
+airflow.cfg
+
+# Environment variables (just in case)
+.env
+*.env
